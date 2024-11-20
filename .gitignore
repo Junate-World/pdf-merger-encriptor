@@ -1,0 +1,28 @@
+
+---
+
+### **.gitignore**  
+
+```gitignore
+# Python artifacts  
+*.pyc  
+*.pyo  
+__pycache__/  
+*.env  
+
+# Flask-related  
+instance/  
+uploads/  
+
+# Virtual environment  
+venv/  
+
+# System files  
+.DS_Store  
+Thumbs.db  
+*.log  
+
+# IDE settings  
+.vscode/  
+.idea/  
+*.iml  
